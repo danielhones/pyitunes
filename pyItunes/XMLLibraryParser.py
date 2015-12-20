@@ -4,6 +4,6 @@
 import plistlib
 
 class XMLLibraryParser:
-	def __init__(self,xmlLibrary):
-		#Much better support of xml special characters
-		self.dictionary = plistlib.readPlist(xmlLibrary)['Tracks']
+    def __init__(self,xmlLibrary):
+        #Much better support of xml special characters
+        self.dictionary = plistlib.readPlist(xmlLibrary)['Tracks']
