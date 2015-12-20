@@ -1,4 +1,4 @@
 class Playlist:
-	def __init__(self,playListName=None):
-		self.name = playListName
-		self.tracks = []
+    def __init__(self, name=None):
+        self.name = name
+        self.tracks = []
